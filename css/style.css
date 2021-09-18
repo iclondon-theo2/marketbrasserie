@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-size: 16px;
+	color: #444440;
+	font-family: 'Lato', sans-serif;
+	background-color: #ffffff;
+	margin: 0px;
+	width: 100%;
+}
+
+/** HEADER **/
+#nav {
+	
+}
+
+#firstview {
+	width: 100%;
+	min-height: 100vh;
+}
+
+#nav a, #prices a {
+	color: #CB997E;
+}
+
+#nav ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+#nav li {
+	margin: 20px 20px 20px 20px;
+}
+
+#title {
+	text-align: center;
+	font-family: "Playfair Display", "Baskerville", "Times New Roman", "serif";
+	padding: 0px;
+	color: #000;
+	margin: 20px 0px 50px 0px;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+h1 {
+	font-size: 3em;
+	font-family: "Playfair Display", "Baskerville", "Times New Roman", "serif";
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 0.7em;
+	font-family: "Playfair Display", "Baskerville", "Times New Roman", "serif";
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #9a8c60;
+	letter-spacing: 3px;
+}
+
+h3 {
+	color: #9a8c60;
+	font-family: "Playfair Display", "Baskerville", "Times New Roman", "serif";
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	letter-spacing: 3px;
+}
+
+h4 {
+	font-size: 1.8em;
+	text-align: center;
+	font-family: "Playfair Display", "Baskerville", "Times New Roman", "serif";
+	color: #8F5739;
+}
+
+.greenwich {
+	font-size: 1em;
+	text-align: center;
+	font-family: "GidolinyaRegular", "Open Sans", "Helvetica", "Arial", "sans-serif";
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.section {
+	width: 80%;
+	min-height: 100vh;
+	height: 100%;
+	display: block;
+	text-align: center;
+}
+
+#toppic {
+	width: 70%;
+}
+
+#tulip {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.menu-title {
+	font-size: 3em;
+	color: #000000;
+	font-family: "Della Respira", "Baskerville", "Times New Roman", "serif";
+	text-align: center;
+	margin: 20px 20px 20px 20px;
+	opacity: 0.8;
+}
+
+.foodname {
+	font-size: 1.4em;
+	font-family: "Playfair Display", "Baskerville", "Times New Roman", "serif";
+	font-weight: 400;
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+	opacity: 0.7;
+	color: #000;
+}
+
+.fooddesc {
+	text-align: center;
+	font-family: "GidolinyaRegular", "Open Sans", "Helvetica", "Arial", "sans-serif";
+	margin: 10px 50px 40px 50px;
+	opacity: 0.7;
+	font-size: 1.2em;
+}
+
+.paragraph {
+	text-align: center;
+	margin: 10px 40px 40px 40px;
+}
+
+.icon {
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.bigimage {
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	float: right;
+	
+}
+
+.meridianlogo {
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#food, #tea, #champ, #story, #section, #prices {
+	margin: 0 auto;
+	padding: 40px 0px 20px 0px;
+}
+
+#whiteflower, #orangeflower, #purpleflower, #pinkflower {
+	width: 180px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: -1;
+}
+
+.flower {
+	position: absolute;
+}
+
+#leftblossom {
+	position: absolute;
+	left: 0;
+	right: auto;
+	top: 2500px;
+	z-index: -1;
+	width: 200px;
+	text-align: left;
+}
+
+#book {
+	background-color: #fff;
+	padding: 20px 0px 20px 0px;
+	width: 100%;
+}
+
+iframe {
+	margin: 10px 40px 40px 40px;
+	position: relative;
+	background-color: #fff;
+}
+
+.iframe {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	background-color: #fff;
+}
+
+.link {
+	text-align: center;
+	font-size: 1.3em;
+	font-family: 'Della Respira', "Baskerville", "Times New Roman", "serif";
+}
+
+.fineprint {
+	font-size: 0.65em;
+	font-family: "Open Sans", "Helvetica", "Arial", "sans-serif";
+	text-align: center;
+}
+
+#prices .fooddesc a {
+	color: #000000;
+}
+
+@media (max-width: 768px) {
+	
+	div.section {
+		width: 100%;
+	}
+	
+	.fooddesc {
+		margin: 10px 20px 40px 20px;
+	}
+	
+	#leftblossom {
+		width: 50px;
+	}
+	
+}
