@@ -70,16 +70,17 @@ h3 {
 }
 
 h4 {
-	font-size: 1.8em;
-	text-align: center;
+	font-size: 3em;
 	font-family: "Playfair Display", "Baskerville", "Times New Roman", "serif";
-	color: #8F5739;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: 20px 0 10px 0;
 }
 
 .greenwich {
 	font-size: 1em;
 	text-align: center;
-	font-family: "GidolinyaRegular", "Open Sans", "Helvetica", "Arial", "sans-serif";
+	font-family: "Gidole", "GidolinyaRegular", "Open Sans", "Helvetica", "Arial", "sans-serif";
 	text-transform: uppercase;
 	letter-spacing: 3px;
 }
@@ -120,11 +121,12 @@ h4 {
 	margin: 10px 10px 10px 10px;
 	opacity: 0.7;
 	color: #000;
+	text-transform: uppercase;
 }
 
 .fooddesc {
 	text-align: center;
-	font-family: "GidolinyaRegular", "Open Sans", "Helvetica", "Arial", "sans-serif";
+	font-family: "Gidole", "GidolinyaRegular", "Open Sans", "Helvetica", "Arial", "sans-serif";
 	margin: 10px 50px 40px 50px;
 	opacity: 0.7;
 	font-size: 1.2em;
