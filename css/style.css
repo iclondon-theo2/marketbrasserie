@@ -93,15 +93,11 @@ h4 {
 	text-align: center;
 }
 
-#toppic {
-	width: 70%;
-}
-
-#tulip {
-	width: 40%;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+a {
+	font-size: 1.2em;
+	color: #444440;
+	font-family: "Gidole", "GidolinyaRegular", "Open Sans", "Helvetica", "Arial", "sans-serif";
+	text-transform: uppercase;
 }
 
 .menu-title {
@@ -173,10 +169,6 @@ h4 {
 	z-index: -1;
 }
 
-.flower {
-	position: absolute;
-}
-
 #leftblossom {
 	position: absolute;
 	left: 0;
@@ -193,7 +185,7 @@ h4 {
 	width: 100%;
 }
 
-iframe {
+#iframe {
 	margin: 10px 40px 40px 40px;
 	position: relative;
 	background-color: #fff;
@@ -218,6 +210,7 @@ iframe {
 	font-size: 0.65em;
 	font-family: "Open Sans", "Helvetica", "Arial", "sans-serif";
 	text-align: center;
+	margin: 0 10px 10px 10px;
 }
 
 #prices .fooddesc a {
