@@ -20,9 +20,6 @@ body {
 	min-height: 100vh;
 }
 
-#nav a, #prices a {
-	color: #CB997E;
-}
 
 #nav ul {
   list-style-type: none;
@@ -140,43 +137,10 @@ a {
 	display: block;
 }
 
-.bigimage {
-	width: 100px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	float: right;
-	
-}
 
-.meridianlogo {
-	width: 150px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#food, #tea, #champ, #story, #section, #prices {
+#food, #section, #prices {
 	margin: 0 auto;
 	padding: 40px 0px 20px 0px;
-}
-
-#whiteflower, #orangeflower, #purpleflower, #pinkflower {
-	width: 180px;
-	position: absolute;
-	right: 0px;
-	top: 0px;
-	z-index: -1;
-}
-
-#leftblossom {
-	position: absolute;
-	left: 0;
-	right: auto;
-	top: 2500px;
-	z-index: -1;
-	width: 200px;
-	text-align: left;
 }
 
 #book {
@@ -225,10 +189,6 @@ a {
 	
 	.fooddesc {
 		margin: 10px 20px 40px 20px;
-	}
-	
-	#leftblossom {
-		width: 50px;
 	}
 	
 }
